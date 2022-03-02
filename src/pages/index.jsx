@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+import Banner from './components/Banner';
+
 import styles from '../styles/Home.module.scss';
 
 export default function Home() {
@@ -13,6 +15,8 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Banner />
     </>
   );
 }

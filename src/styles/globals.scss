@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+:root {
+  --gray-100: #e2e2dd;
+  --gray-200: #e5e5e5;
+  --black: #030303;
+  --nude: rgb(235, 171, 148);
+  --brown: rgb(125, 77, 56);
+  --yellow-200: #f0eb9d;
+}
+
 @media (max-width: 1080px) {
   html {
     font-size: 93.75%;
@@ -29,6 +38,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
 .container {
   max-width: 1170px;
   width: 100%;
@@ -40,4 +53,10 @@ a {
   @media (min-width: 769px) {
     flex-direction: row;
   }
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Montserrat', sans-serif;
 }
