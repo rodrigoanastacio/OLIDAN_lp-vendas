@@ -1,0 +1,51 @@
+.accordion {
+  & .item {
+    border-bottom: 1px solid #e5e5e5;
+    transition: all 0.4s ease 0s;
+    position: relative;
+  }
+
+  button {
+    width: 100%;
+    padding: 20px 0;
+    text-align: left;
+    font-size: 22px;
+
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: space-between;
+
+    @media (min-width: 769px) {
+      padding: 20px;
+    }
+  }
+
+  strong {
+    font-weight: 500;
+    line-height: 34px;
+    width: 90%;
+    display: block;
+  }
+
+  & .content {
+    display: none;
+    padding: 0 0 20px;
+    width: 90%;
+    transition: all 0.3s ease-in-out;
+    font-size: 16px;
+    font-weight: normal;
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    @media (min-width: 769px) {
+      padding: 0 20px 20px;
+      width: 100%;
+    }
+  }
+}

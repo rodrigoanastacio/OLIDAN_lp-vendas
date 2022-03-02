@@ -14,8 +14,8 @@ export default function Banner({ children }) {
           <img src="olidan-logo.png" alt="Olidan logo" width="320" />
 
           <h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-            modi dicta
+            Se sinta única e especial em um vestido feito sob medida para o seu
+            corpo e estilo
           </h1>
 
           <p>
