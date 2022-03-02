@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 import Banner from './components/Banner';
+import Card from './components/Card';
 
 import styles from '../styles/Home.module.scss';
 
@@ -17,6 +18,14 @@ export default function Home() {
       </Head>
 
       <Banner />
+
+      <section className={styles.benefits}>
+        <div className={styles.container}>
+          <Card path="image.png" text="Texto alternativo" />
+          <Card path="image.png" text="Texto alternativo" />
+          <Card path="image.png" text="Texto alternativo" />
+        </div>
+      </section>
     </>
   );
 }

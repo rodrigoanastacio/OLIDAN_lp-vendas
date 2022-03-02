@@ -1,0 +1,11 @@
+.cardImage {
+  flex: 1;
+
+  & + article {
+    margin-left: 25px;
+  }
+
+  img {
+    width: 100%;
+  }
+}
