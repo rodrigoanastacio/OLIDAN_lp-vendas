@@ -24,7 +24,7 @@ export default function Banner({ children }) {
             adipisci quisquam aperiam voluptate, eum autem voluptates.
           </p>
 
-          <CTA title="Lorem ipsum dolor" path="https://google.com" />
+          <CTA title="Orçamento Agora" path="https://google.com" />
         </div>
       </div>
     </header>

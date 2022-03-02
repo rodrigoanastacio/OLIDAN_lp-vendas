@@ -1,6 +1,6 @@
 .cta {
-  padding: 23px 38px;
-  background-color: var(--brown);
+  padding: 15px 30px;
+  background-color: #075e54;
   border-radius: 10px;
   color: var(--gray-100);
   text-transform: uppercase;
@@ -10,4 +10,8 @@
   margin: 0 auto;
   font-size: 22px;
   font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
